@@ -4,6 +4,7 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -21,10 +22,26 @@
 .description {
   font-size: 1.25rem;
   margin: 0;
+  max-width: 65%;
 }
 
 .characterWrapper {
+  position: fixed;
+  height: 500px;
+  top: 104px;
+  left: 46%;
 }
 
 .controlColumn {
+}
+
+.decorationBackground {
+  height: 450px;
+  background-color: hsl(195deg, 20%, 86%);
+}
+
+.decorationBackgroundContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
